@@ -1,0 +1,188 @@
+/*
+ Global Styles 
+*/
+
+html {
+  font-size: 62.5%; /*10px = 1rem*/
+    
+}
+
+body {
+  font-size: 1.4rem; /*14px*/
+}
+
+h2 {
+  font-size: 3.0rem; /*30px*/
+}
+
+h3 {
+  font-size: 2.0rem; /*20px*/
+}
+
+main {
+  background-color: #fff;
+}
+
+.script-txt {
+  font-weight: 500;
+}
+
+h1.script-txt, h2.script-txt {
+  font-weight: 700;
+}
+
+/*
+Header
+*/
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  background-color: #fff;
+}
+
+/*
+ Navigation 
+*/
+
+.navbar {
+  border-radius: 0;
+  border: none;
+}
+.navbar-default {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #777;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+  color: #339999;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: orange;
+}
+
+.navbar-toggle {
+  display: block;
+  margin: 0 auto;
+  float: none;
+}
+
+/*
+ Sidebar
+*/
+
+.color {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 9.5rem;
+  margin-bottom: 2.5rem;
+}
+
+#top-color {
+  background-color: #006666;
+}
+
+#mid-color {
+  background-color: #339999;
+}
+
+#bottom-color {
+  background-color: #66cccc;
+}
+
+/*
+ Featured Examples
+*/
+
+.example-header {
+  text-align: center;
+}
+
+.example {
+  text-align: center;
+  margin-bottom: 3.0rem;
+}
+
+.feature-image {
+  width: 100%;
+  max-height: 15.0rem; 
+  overflow: hidden;
+}
+
+/*
+ Media Queries
+*/
+
+/* sm screen sizes 768px and up: Tablets*/
+@media screen and (min-width: 768px) {
+
+  #logo {
+    display: block;
+    margin: 0;
+    margin-top: 1.0em;
+  }
+
+  header {
+    text-align: right;
+  }
+
+  #name {
+    margin-top: 4.0em;
+  }
+
+  #title {
+
+  }
+  
+  .navbar-default {
+    float: right;
+  }
+
+  .navbar-collapse {
+    padding-right: 0;
+  }
+
+  .navbar-nav {
+    float: right;
+  }
+
+  .navbar-nav>li>a:last-of-type {
+    padding-right: 0;
+  }
+
+  .example-header {
+    text-align: left;
+  }
+
+  .feature-image {
+    width: 100%;
+    max-height: 30.0rem; /*300px*/
+    overflow: hidden;
+  }
+}
+
+/* md screen sizes 992px+ laptops and desktops */
+@media screen and (min-width: 992px) {
+  /**** Header ****/
+  #logo {
+    margin-top: 4.0rem;
+  }
+  /**** Hero ****/
+  /**** Navigation ****/
+  /**** Sidebar ****/
+  /**** Feature Examples ****/
+  .feature-image {
+    width: 100%;
+    max-height: 12.0rem; /*300px*/
+    overflow: hidden;
+  }
+}
