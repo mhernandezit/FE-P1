@@ -1,0 +1,194 @@
+<html>
+    <head>
+        <title>Mike Hernandez's Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!-- Normalize.css -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- My CSS -->
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+         <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+<!--===========================================
+================ Main Content =================
+============================================-->
+        <main class="container">
+            <!--===========================================
+            =================== Heading ===================
+            ============================================-->
+            <section class="row">
+                <div class="col-xs-12 col-sm-6 col-md-2 col-md-offset-2">
+                    <img id="logo" src="https://sumozasnullpointer.files.wordpress.com/2015/04/udacity-logo.jpg?w=585" alt="udacity-logo">
+                </div>
+                <header class="col-xs-12 col-sm-6 col-md-7">
+                    <h1 id="name" class="col-md-12 script-txt">Mike Hernandez</h1>
+                    <p id="title" class="col-md-12 text-uppercase">Datacenter Engineer</p>
+                </header>
+            </section>
+            <!--===========================================
+            ================= Navigation ==================
+            ============================================-->
+            <section class="row">
+                <div class="col-xs-12 col-sm-12 col-md-9 col-md-offset-2">
+                    <nav class="navbar navbar-default navbar-static">
+                      <div class="container">
+                        <div class="navbar-header">
+                          <!--Hamburger Button-->
+                          <button class="hidden-sm hidden-md hidden-lg navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".portfolio-nav">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                          <!--Hamburger Button-->
+                        </div>
+                        <!--Collapsible Nav Menu-->
+                        <div class="collapse navbar-collapse portfolio-nav"><!--Target of hamburger button-->
+                          <ul class="nav navbar-nav">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Me</a></li>
+                            <li class="dropdown">
+                              <a id="portfolio" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                Portfolio
+                                <span class="caret"></span>
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="portfolio">
+                                <li><a href="#">Portfolio Website</a></li>
+                                <li><a href="#">Online Resume</a></li>
+                                <li><a href="#">Game Clone</a></li>
+                                <li><a href="#">Site Optimization</a></li>
+                                <li><a href="#">Map Project</a></li>
+                                <li><a href="#">Feed Reader</a></li>
+                              </ul>
+                            </li>
+                            <li><a href="mailto:mhernandezit@gmail.com" target="_blank"><i class="mail-to"></i></a></li>
+                          </ul>
+                        </div><!-- /.nav-collapse -->
+                        <!--Collapsible Nav Menu-->
+                      </div><!-- /.container-fluid -->
+                    </nav>
+                    <!--navigation-->
+                </div>
+            </section>
+            <section class="row">
+                <!--===========================================
+                ================== Sidebar ====================
+                ============================================-->
+                <aside class="hidden-xs hidden-sm col-md-2 col-lg-2 sidebar">
+                    <div class="col-xs-12">
+                        <h3>About Me</h3>
+                        <img class="img-responsive" src="http://imgur.com/rDXEJ7N" alt="My Picture">
+                        <p></p>
+                    </div>
+                    <div class="col-xs-12">
+                        <h3>My Work</h3>
+                        <img class="img-responsive" src="http://imgur.com/lD6vA3v" alt="Server Image">
+                        <p></p>
+                    </div>
+                </aside>
+                <!--===========================================
+                ================= Hero Image ==================
+                ============================================-->
+                <img class="col-xs-12 col-sm-12 col-md-9 img-responsive" src="http://i.imgur.com/nBe7BE5.png" alt="Main_Image">
+            </section>
+            <!--===========================================
+            ============== Featured Examples ==============
+            ============================================-->
+            <section class="row example-header">
+                <div class="col-xs-12 col-sm-11 col-sm-offset-1 col-md-9 col-md-offset-2">
+                    <h2 class="script-txt">Featured Work</h2>
+                </div>
+            </section>
+            <section class="row">
+                <!--===================================-->
+                <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-3 col-md-offset-2 example">
+                    <div class="feature-image">
+                        <img class="img-responsive" src="http://i.imgur.com/AVo7Y2a.png" alt="Project 2" data-toggle="modal" data-target="#project-1">
+                    </div>
+                    <h3 class="script-txt">P2: Online Resume</h3>
+                    Coming Soon!
+                </div>
+                <!--===================================-->
+                <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-3 col-md-offset-0 example">
+                    <div class="feature-image">
+                        <img class="img-responsive" src="http://i.imgur.com/yZsgj03.png" alt="Project 3" data-toggle="modal" data-target="#project-2">
+                    </div>
+                    <h3 class="script-txt">P3: Game Clone</h3>
+                    Coming Soon!
+                </div>
+                <!--===================================-->
+                <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-3 col-md-offset-0 example">
+                    <div class="feature-image">
+                        <img class="img-responsive" src="http://i.imgur.com/FPvFvby.png" data-toggle="modal" alt="Project 4" data-target="#project-3">
+                    </div>
+                    <h3 class="script-txt">P4: Site Optimization</h3>
+                    Coming Soon!
+                </div>
+                <!--===================================-->
+            </section>
+        </main>
+        <!--===========================================
+        ==================== Modal ====================
+        ============================================-->
+        <!--===== Modal: Project-1 ======-->
+        <div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="online-resume" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="online-resume">Online Resume</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive" src="" alt="Online Resume">
+                
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== Modal: Project-2 ======-->
+        <div class="modal fade" id="project-2" tabindex="-1" role="dialog" aria-labelledby="game-clone" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="game-clone">Game Clone</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive" src="" alt="Game Clone">
+                
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== Modal: Project-3 ======-->
+        <div class="modal fade" id="project-3" tabindex="-1" role="dialog" aria-labelledby="site-optimization" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="site-optimization">Site Optimization</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive" src="" alt="Site Optimization">
+                
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!--===========================================
+================ Main Content =================
+============================================-->
+    </body>
+</html>
